@@ -1,0 +1,58 @@
+name: animation
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-63.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  background_image: "assets/images/background.png"
+
+  android_12:
+    color: "#ecc728"
+
+flutter_launcher_icons:
+  image_path_android: "assets/images/logo.png"
+  image_path_ios: "assets/images/logo.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "assets/images/logo.png"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+  # after adding splash image or icon launcher do this steps in terminal
+
+  #Splach
+  #  flutter clean
+  #  flutter pub get
+  #  flutter pub run flutter_native_splash:create
+
+  #Icon
+  #  flutter clean
+  #  flutter pub get
+  #  flutter pub run flutter_launcher_icons
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
