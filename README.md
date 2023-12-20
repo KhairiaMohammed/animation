@@ -1,6 +1,162 @@
 
+![animation](https://github.com/Khiriah/animation/assets/92297044/03dd340a-9f35-4a66-8e9d-766102bb8029)
 
 
+
+
+
+# The Animation App
+
+<br>
+
+**Animation** was completed by me . It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
+The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
+The primary goal of to animat the componants.
+
+<br>
+
+
+
+## ✨ Features
+
+✔ Animated Align
+
+
+✔ Animated Builder
+
+
+✔ Animated Container
+
+
+
+✔ Animated Cross Fade
+
+
+
+✔ Animated Default Text Style
+
+
+
+✔ Animated Opacity
+
+
+
+✔ Animated Physical
+
+
+✔ Animated Positioned
+
+
+✔ Animated Size
+
+
+✔ Animated Widget
+
+
+✔ DecoratedBox Transition
+
+
+✔ Fade Transition
+
+
+✔ Hero
+
+
+✔ Implicitly Animated Widget
+
+
+✔ Positioned Transition
+
+
+✔ Rotation Transition
+
+
+✔ Scale Transition
+
+
+✔ Size Transition
+
+
+✔ Slide Transition
+
+
+✔ Splash
+
+
+
+
+
+<br>
+
+
+## 🚀  Getting Started  
+
+Before installing , make sure you have the following prerequisites installed:
+
+- Flutter: See Flutter's installation guide for instructions on how to <a href="https://docs.flutter.dev/get-started/install">install Flutter</a>.
+
+Once you have the prerequisites installed, follow these steps to install:
+
+1. Clone the project repository to your local machine.
+2. Navigate to the root directory of the project.
+3. Run `flutter pub get` to install the required dependencies.
+4. Run `flutter run` to launch the app.
+
+
+
+
+
+## 🔎 Folder Structure
+
+This Project follows the Model-View-Controller (MVC) design pattern and uses GetX for state management. The primary directory structure consists of three main folders: Common, Core, and Features.
+
+```bash
+mbshir
+├─ ios/
+├─ android/
+├─ assets/
+│  ├─ images/
+├─ lib/
+│  ├─ common/
+│  ├─ core/
+│  │  ├─ binding/
+│  │  ├─ route/
+│  │  ├─ theme/
+│  ├─ feature/
+│  │  ├─ controller/
+│  │  ├─ screen/
+│  │  ├─ widget/
+│  ├─ main.dart
+├─ pubspec.yaml
+
+
+```
+### Common:
+
+ <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/common"> Common file </a> is directory typically contains code shared throughout the application. Common elements found here include utility classes and custom widgets.
+
+
+### Core
+
+ <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app 
+
+
+### Features
+
+ All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget
+
+
+
+## 💼 Technologies  
+
+
+| library  |         Usage 
+| :-------- | :------------------------- |
+| <a href="https://pub.dev/packages/get">Getx</a> |  State management , navigation, dependency management.|
+
+
+
+## Demo app
 
 ![animated align (1)](https://github.com/Khiriah/animation/assets/92297044/07bfbe25-df74-4658-ac54-b93c0939a993)
 
@@ -50,6 +206,11 @@
 
 ![Screen Recording 2023-12-20 at 11 27 51 AM 10 (1)](https://github.com/Khiriah/animation/assets/92297044/594b307c-e9aa-4e91-bf61-8e74598bbf24)
 
+
+
+## 🦸‍♀️  SuperHeroe
+
+- Khairiah Alayyafi 🦸‍♀
 
 
 
